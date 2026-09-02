@@ -62,6 +62,7 @@ function Index() {
             height={1088}
             className="absolute inset-0 z-0 h-full w-full object-cover"
           />
+          <div className="absolute inset-0 z-0 bg-gradient-to-b from-lead/50 via-transparent to-lead/30" />
           <div className="relative z-10 text-center text-paper mix-blend-difference">
             <h1 className="mb-8 animate-reveal font-serif text-5xl font-medium leading-none text-balance md:text-7xl lg:text-9xl">
               Irina Márquez
@@ -144,7 +145,7 @@ function Index() {
                 </div>
               </article>
 
-              <article className="group relative md:col-span-5 md:-mt-20">
+              <article className="group relative md:col-span-5">
                 <div className="overflow-hidden rounded-[min(1vw,12px)] shadow-sm ring-1 ring-lead/5">
                   <img
                     src={obraVisitantes}
@@ -160,7 +161,7 @@ function Index() {
                 </div>
               </article>
 
-              <article className="group relative md:col-span-7">
+              <article className="group relative md:col-span-7 md:mt-16">
                 <div className="overflow-hidden rounded-[min(1vw,12px)] shadow-sm ring-1 ring-lead/5">
                   <img
                     src={obraMonolitos}
