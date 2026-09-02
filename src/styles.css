@@ -154,8 +154,21 @@
     border-color: var(--color-border);
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@utility collage-hover {
+  transition: transform 0.6s var(--ease-collage);
+  &:hover {
+    transform: translateY(-4px) rotate(1deg);
   }
 }
